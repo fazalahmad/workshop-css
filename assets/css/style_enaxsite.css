@@ -1,0 +1,45 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+header{
+  background: #03A9F4;
+  padding: 15px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+article{
+  background: #BDBDBD;
+  margin-bottom: 20px;
+
+}
+body{
+  background: #9E9E9E;
+}
+nav{
+  background: #29B6F6;
+  order: 1;
+  flex: 15%;
+}
+aside{
+  background: white;
+  order : 3;
+  flex: 15%;
+
+}
+
+#artikel-section {
+  order: 2;
+  flex: 70%;
+  margin : 0 20px 0 20px;
+
+}
